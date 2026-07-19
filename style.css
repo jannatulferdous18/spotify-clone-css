@@ -205,3 +205,136 @@ a {
   border-top: 1px solid white;
   opacity: 0.4;
 }
+
+.music-player {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 6rem;
+}
+
+.album {
+  width: 25%;
+  height: 6rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.player {
+  width: 50%;
+}
+
+.controls {
+  width: 25%;
+}
+
+.player-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.player-control-icon {
+  height: 1rem;
+  margin-right: 1.75rem;
+  opacity: 0.7;
+}
+
+.player-control-icon:hover {
+  opacity: 1;
+}
+
+.playback-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress-bar {
+  width: 70%;
+  appearance: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.progress-bar::-webkit-slider-runnable-track {
+  background-color: #ddd;
+  border-radius: 100px;
+  height: 0.2rem;
+}
+
+.progress-bar::-webkit-slider-thumb {
+  appearance: none;
+  height: 1rem;
+  width: 1rem;
+  background-color: #1bd760;
+  border-radius: 50%;
+  margin-top: -6px;
+}
+
+.album img {
+  height: 4rem;
+  width: 4rem;
+  margin: 0.75rem;
+}
+
+.song {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0.75rem;
+}
+
+.song-name {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.singer-name {
+  font-size: 0.85rem;
+  opacity: 0.9;
+}
+
+.song p {
+  padding: 0;
+  margin: 0;
+}
+
+.add-fav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.add-fav i {
+  height: 1rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.control-music {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.control-icons {
+  height: 1rem;
+  margin-right: 1rem;
+}
+
+.music-control-bar::-webkit-slider-runnable-track {
+  background-color: #ddd;
+  border-radius: 100px;
+  height: 0.2rem;
+}
+
+.music-control-bar::-webkit-slider-thumb {
+  appearance: none;
+  height: 1rem;
+  width: 1rem;
+  background-color: #1bd760;
+  border-radius: 50%;
+  margin-top: -6px;
+}
